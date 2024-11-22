@@ -12,8 +12,6 @@ git clone https://github.com/DieserLaurenz/eurowings-compensation-checker.git
 cd eurowings-compensation-checker
 ```
 
----
-
 ### **2. Create a Virtual Environment**
 Create and activate a Python virtual environment:
 
@@ -29,16 +27,12 @@ Create and activate a Python virtual environment:
   source venv/bin/activate
   ```
 
----
-
 ### **3. Install Required Dependencies**
 Install the necessary Python packages using `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### **4. Configure Environment Variables**
 1. Open the file `.env.example` and fill in the required values:
@@ -59,16 +53,12 @@ pip install -r requirements.txt
    mv .env.example .env
    ```
 
----
-
 ### **5. Run the Script**
 Execute the script to check the current compensation status:
 
 ```bash
 python src/eurowings-compensation-checker.py
 ```
-
----
 
 ## ⚠️ Disclaimer
 
@@ -77,12 +67,8 @@ python src/eurowings-compensation-checker.py
 - The author assumes **no liability** for any misuse, errors, or potential issues caused by this script.
 - This tool is provided **"as-is"**, without warranty of any kind.
 
----
-
 ## 🛠 Contributing
 Feel free to submit issues, fork the repository, or suggest improvements via pull requests.
-
----
 
 ## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
