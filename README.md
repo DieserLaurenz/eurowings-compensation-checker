@@ -86,7 +86,3 @@ Feel free to submit issues, fork the repository, or suggest improvements via pul
 
 ## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-With this README, users can easily set up, configure, and run your tool while being informed about responsibilities and limitations. 🚀
