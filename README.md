@@ -8,7 +8,7 @@ Follow these steps to set up and run the project on your local machine.
 Use the following command to clone the repository:
 
 ```bash
-git clone https://github.com/your-username/eurowings-compensation-checker.git
+git clone https://github.com/DieserLaurenz/eurowings-compensation-checker.git
 cd eurowings-compensation-checker
 ```
 
