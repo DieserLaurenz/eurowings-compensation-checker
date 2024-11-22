@@ -94,7 +94,7 @@ def get_ew_ct_cookie(flight_number: str, departure_date: str, airline_code: str)
         return response.cookies["ew_ct"]
     else:
         logging.error("Failed to extract 'ew_ct' cookie")
-        raise NoEwCTFoundInRequestException("No 'ew_ct' cookie found in the response")
+        raise NoEwCTFoundInRequestException("No 'ew_ct' cookie found in the response. Have you set the .env variables correctly?")
 
 
 def get_decision_response(ew_ct: str, personal_data: Dict[str, Any]) -> str:
